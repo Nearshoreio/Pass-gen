@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import PasswordGenerator from '../components/Password-generator';
+---
+
+<Layout title="Strong password generator">
+	<main class="container mx-auto flex flex-col items-center justify-center h-screen">
+		<PasswordGenerator client:load />
+	</main>
+</Layout>
+
